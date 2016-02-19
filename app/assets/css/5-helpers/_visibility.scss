@@ -1,0 +1,20 @@
+
+/* Visibility
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+
+.hide {
+    display: none
+}
+
+.show {
+    display: inherit
+}
+
+.hidden {
+    visibility: hidden
+}
+
+.visible {
+    visibility: visible
+}
