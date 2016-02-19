@@ -1,0 +1,14 @@
+//- layout.jade
+doctype html
+html
+	head
+		include _meta-tags.jade
+			title APP NAME    
+		link(rel='stylesheet', href='/assets/css/main.css')
+		//- Icon
+		link(rel="shortcut icon", href= "/favicon.ico", type="image/x-icon")
+		link(rel="icon", href="/favicon.ico", type="image/x-icon")
+		block head__end
+	body
+		block body__start
+		block body__end
